@@ -53,7 +53,7 @@
     "java.autobuild.enabled": false,
     "java.completion.enabled": true,
     "java.completion.guessMethodArguments": true,
-    "java.completion.maxResults": 5,
+    "java.completion.maxResults": 69,
     "java.format.onType.enabled": true,
     "java.referencesCodeLens.enabled": true,
     "java.saveActions.organizeImports": true,
