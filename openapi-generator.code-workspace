@@ -79,7 +79,7 @@
       "formulahendry.code-runner",
       "visualstudioexptteam.vscodeintellicode",
       "42crunch.vscode-openapi",
-      "mermade.openapi-lint"
+      "mermaid.openapi-lint"
     ]
   }
 }
