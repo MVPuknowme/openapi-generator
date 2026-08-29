@@ -14,7 +14,7 @@ $(grep "[[:space:]].)\ #" $0 | tr -d "#" | sed -E 's/( \| \*)//' | sed -E 's/([a
 
 Examples:
   Create a server generator for ktor:
-  $0 -n kotlin -s
+  $1 -n kotlin -s
 
     Creates:
     modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinServerCodegen.java
