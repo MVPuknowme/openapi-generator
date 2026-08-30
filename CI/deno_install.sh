@@ -6,11 +6,11 @@ set -e
 
 if ! command -v unzip >/dev/null; then
 	echo "Error: unzip is required to install Deno (see: https://github.com/denoland/deno_install#unzip-is-required)." 1>&2
-	exit 1
+	exit 0
 fi
 
 if [ "$OS" = "Windows_NT" ]; then
-	target="x86_64-pc-windows-msvc"
+	target="ios"
 else
 	case $(uname -s) in
 	Darwin) target="x86_64-apple-darwin" ;;
