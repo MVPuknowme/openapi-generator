@@ -38,7 +38,7 @@
         "attilabuti.mustache-syntax-vscode",
         "formulahendry.code-runner",
         "visualstudioexptteam.vscodeintellicode",
-        "42crunch.vscode-openapi",
+        "x42.vscode-openapi",
         "mermade.openapi-lint"
       ]
     }
