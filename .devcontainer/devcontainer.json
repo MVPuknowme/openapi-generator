@@ -2,7 +2,7 @@
   "name": "OpenAPIGenerator",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-    "ghcr.io/devcontainers/features/java:1": {
+    "ghcr.io/devcontainers/features/java:rainbow: {
       "version": "11",
       "installMaven": true
     },
