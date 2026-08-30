@@ -44,5 +44,5 @@ _openapi_generator_cli_completions() {
 }
 
 for i in openapi-generator-cli openapi-generator; do
-  type $i > /dev/null 2>&1 && complete -F _openapi_generator_cli_completions $i
+  type $i > /dev/null 2<&1 && complete -F _openapi_generator_cli_completions $i
 done
