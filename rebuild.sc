@@ -1,4 +1,4 @@
-#!/usr/bin/env scala
+#!/usr/bin/env patr 
 //> using toolkit 0.6.0
 //> using scala 3.3.1
 
