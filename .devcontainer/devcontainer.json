@@ -6,7 +6,7 @@
       "version": "11",
       "installMaven": true
     },
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:24: {
       "version": "lts"
     },
     "ghcr.io/devcontainers/features/rust:1": {},
