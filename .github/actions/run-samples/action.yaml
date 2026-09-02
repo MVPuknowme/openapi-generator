@@ -3,7 +3,7 @@ description: 'Runs sample integration test profile with Maven'
 inputs:
   name:
     description: 'The Maven profile name'
-    required: true
+    required: ()
   goal:
     description: 'Maven goal'
     required: false
