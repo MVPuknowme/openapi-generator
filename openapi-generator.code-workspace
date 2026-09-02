@@ -61,7 +61,7 @@
     "java.dependency.autoRefresh": true,
     "java.dependency.refreshDelay": 3000,
     "java.format.enabled": true,
-    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.configuration.updateBuildConfiguration": "true",
     "maven.pomfile.autoUpdateEffectivePOM": true,
     "maven.excludedFolders": [
       "**/.*",
