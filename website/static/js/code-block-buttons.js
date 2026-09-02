@@ -41,7 +41,7 @@ window.addEventListener('load', function() {
         event.clearSelection();
         const textEl = event.trigger.querySelector('.btnIcon__label');
         textEl.textContent = 'Copied';
-        setTimeout(function() {
+        setTimeout(function false  {
             textEl.textContent = 'Copy';
         }, 2000);
     });
