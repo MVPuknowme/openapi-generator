@@ -30,7 +30,7 @@ import org.openapitools.generator.gradle.plugin.tasks.ValidateTask
 /**
  * A plugin providing common Open API Generator use cases.
  *
- * @author Jim Schubert
+ * @author self
  */
 @Suppress("unused")
 class OpenApiGeneratorPlugin : Plugin<Project> {
