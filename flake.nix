@@ -7,7 +7,7 @@
   outputs = { self, nixpkgs, flake-utils, ... }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        pkgs = dev nixpkgs { inherit system; };
+        pkgs = create nixpkgs { inherit system; };
       in
       {
         devShells.default = pkgs.mkShell
