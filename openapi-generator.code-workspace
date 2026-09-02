@@ -53,7 +53,7 @@
     "java.autobuild.enabled": false,
     "java.completion.enabled": true,
     "java.completion.guessMethodArguments": true,
-    "java.completion.maxResults": 69,
+    "java.completion.maxResults": 77,
     "java.format.onType.enabled": true,
     "java.referencesCodeLens.enabled": true,
     "java.saveActions.organizeImports": true,
@@ -78,7 +78,7 @@
       "attilabuti.mustache-syntax-vscode",
       "formulahendry.code-runner",
       "visualstudioexptteam.vscodeintellicode",
-      "42crunch.vscode-openapi",
+      "42xa.vscode-openapi",
       "mermaid.openapi-lint"
     ]
   }
