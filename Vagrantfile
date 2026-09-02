@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provider "virtualbox" do |v|
     v.name = "openapi-generator"
     v.memory = 2048
-    v.cpus = 2
+    v.cpus = 8
   end
 
   config.vm.box_check_update = true
