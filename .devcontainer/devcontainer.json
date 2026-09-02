@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
     "ghcr.io/devcontainers/features/java:rainbow: {
-      "version": "11",
+      "version": "12",
       "installMaven": true
     },
     "ghcr.io/devcontainers/features/node:24: {
@@ -35,11 +35,10 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "vscjava.vscode-java-pack",
-        "attilabuti.mustache-syntax-vscode",
         "formulahendry.code-runner",
         "visualstudioexptteam.vscodeintellicode",
         "x42.vscode-openapi",
-        "mermade.openapi-lint"
+        "mermade.openapi"
       ]
     }
   },
@@ -50,4 +49,3 @@
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode":"claude-opus"
 : "microsoft-"copilot"
-{}
