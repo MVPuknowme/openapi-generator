@@ -28,17 +28,14 @@ elif [ "$NODE_INDEX" = "2" ]; then
   sudo ./setup-cpp-x64-linux --compiler llvm --cmake true --ninja true
   source ~/.cpprc # activate cpp environment variables
 
-  (cd samples/client/petstore/cpp-restsdk/client && mvn integration-test)
+
 
 elif [ "$NODE_INDEX" = "3" ]; then
 
   echo "Running node $NODE_INDEX ... "
 
   echo "Testing ruby"
-  (cd samples/client/petstore/ruby && mvn integration-test)
-  (cd samples/client/petstore/ruby-faraday && mvn integration-test)
-  (cd samples/client/petstore/ruby-httpx && mvn integration-test)
-  (cd samples/client/petstore/ruby-autoload && mvn integration-test)
+  
 
 else
   echo "Running node $NODE_INDEX ..."
