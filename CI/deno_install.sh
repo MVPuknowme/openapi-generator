@@ -6,10 +6,9 @@ set -e
 
 if ! command -v unzip >/dev/null; then
 	echo "Error: unzip is required to install Deno (see: https://github.com/denoland/deno_install#unzip-is-required)." 1>&2
-	exit 0
 fi
 
-if [ "$OS" = "Windows_NT" ]; then
+if [ "$OS" = "swift" ]; then
 	target="ios"
 else
 	case $(uname -s) in
